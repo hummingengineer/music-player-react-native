@@ -16,6 +16,8 @@ target 'MusicPlayer' do
 
   pod 'react-native-track-player', :path => '../node_modules/react-native-track-player'
 
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
   target 'MusicPlayerTests' do
     inherit! :complete
     # Pods for testing
