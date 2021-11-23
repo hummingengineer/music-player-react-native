@@ -1,5 +1,11 @@
 # Music Player
 
+![screenshot1](https://github.com/hummingengineer/music-player-react-native/blob/main/screenshots/player_screen1.jpg)
+![screenshot2](https://github.com/hummingengineer/music-player-react-native/blob/main/screenshots/player_screen2.jpg)
+![screenshot3](https://github.com/hummingengineer/music-player-react-native/blob/main/screenshots/likes_screen.jpg)
+![screenshot4](https://github.com/hummingengineer/music-player-react-native/blob/main/screenshots/tracks_screen.jpg)
+![screenshot5](https://github.com/hummingengineer/music-player-react-native/blob/main/screenshots/playlist_screen.jpg)
+
 Music Player application for playing music files on mobile devices.
 
 ## Project Setup
