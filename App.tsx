@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {LogBox} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
@@ -14,6 +15,9 @@ const RootStack = createNativeStackNavigator<RootStackParamList>();
 export default function App() {
   useEffect(() => {
     const setup = async () => {
+      // To handle the issue related with react native reanimated library.
+      LogBox.ignoreLogs(['new NativeEventEmitter']);
+
       await requestPermissions();
 
       // if app was relaunched and music was already playing, we don't setup again.

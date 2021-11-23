@@ -18,6 +18,8 @@ target 'MusicPlayer' do
 
   pod 'RNFS', :path => '../node_modules/react-native-fs'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'MusicPlayerTests' do
     inherit! :complete
     # Pods for testing
